@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="62851" started-at="2019-11-18T15:17:21 IST" finished-at="2019-11-18T15:18:24 IST">
+  <suite name="Default suite" duration-ms="24109" started-at="2019-11-18T15:34:23 IST" finished-at="2019-11-18T15:34:47 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="62851" started-at="2019-11-18T15:17:21 IST" finished-at="2019-11-18T15:18:24 IST">
-      <class name="selenium4.selenium4features">
-        <test-method status="PASS" signature="Location()[pri:0, instance:selenium4.selenium4features@1efed156]" name="Location" duration-ms="18470" started-at="2019-11-18T15:17:21 IST" finished-at="2019-11-18T15:17:40 IST">
+    <test name="Default test" duration-ms="24109" started-at="2019-11-18T15:34:23 IST" finished-at="2019-11-18T15:34:47 IST">
+      <class name="selenium4.RelativeLocators">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium4.RelativeLocators@72b6cbcc]" name="setUp" is-config="true" duration-ms="24002" started-at="2019-11-18T15:34:23 IST" finished-at="2019-11-18T15:34:47 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Location -->
-        <test-method status="PASS" signature="openNewTab()[pri:0, instance:selenium4.selenium4features@1efed156]" name="openNewTab" duration-ms="15043" started-at="2019-11-18T15:17:40 IST" finished-at="2019-11-18T15:17:55 IST">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:selenium4.RelativeLocators@72b6cbcc]" name="Test1" duration-ms="51" started-at="2019-11-18T15:34:47 IST" description="Test Book 5 is below of book 2" finished-at="2019-11-18T15:34:47 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openNewTab -->
-        <test-method status="PASS" signature="openNewWindow()[pri:0, instance:selenium4.selenium4features@1efed156]" name="openNewWindow" duration-ms="13955" started-at="2019-11-18T15:17:55 IST" finished-at="2019-11-18T15:18:09 IST">
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:selenium4.RelativeLocators@72b6cbcc]" name="close" is-config="true" duration-ms="32" started-at="2019-11-18T15:34:47 IST" finished-at="2019-11-18T15:34:47 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openNewWindow -->
-        <test-method status="PASS" signature="screenShootTest()[pri:0, instance:selenium4.selenium4features@1efed156]" name="screenShootTest" duration-ms="15352" started-at="2019-11-18T15:18:09 IST" finished-at="2019-11-18T15:18:24 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShootTest -->
-      </class> <!-- selenium4.selenium4features -->
+        </test-method> <!-- close -->
+      </class> <!-- selenium4.RelativeLocators -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
